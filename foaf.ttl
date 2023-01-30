@@ -1,0 +1,32 @@
+@base <https://github.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/blob/master/foaf.ttl> .
+
+@prefix im: <https://github.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/blob/master/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2022-01-30"^^xsd:date ;
+   dc:title "Inge's FOAF Profile"@en ;
+   foaf:primaryTopic <#im> ;
+   dc:creator <#im> .
+
+<#im> a foaf:Person ;
+   rdfs:label "Inge Müller" ;
+   foaf:name "Inge Müller" ;
+   foaf:givenName "Inge" ;
+   foaf:familyName "Müller" ;
+   foaf:age 24 ;
+   foaf:knows <http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da> ;
+   foaf:interest dbr:Semantic_Web , dbr:Guitar , dbr:Baking ; 
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
+   social:likesMovie dbr:Fantastic_Beasts_and_Where_to_Find_Them , dbr:Fantastic_Beasts:_The_Crimes_of_Grindelwald ;
+   social:hasSpiritAnimal dbr:Sloth ;
+   social:hasFavouritePlatonicSolid dbr:Octahedron ;
+   foaf:icqChatID 0123456789 ;
+   foaf:dnaChecksum 123 .
