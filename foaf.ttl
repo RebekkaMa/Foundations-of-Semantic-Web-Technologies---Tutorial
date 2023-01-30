@@ -22,7 +22,7 @@
    foaf:givenName "Inge" ;
    foaf:familyName "Müller" ;
    foaf:age 24 ;
-   foaf:knows <http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da> ;
+   foaf:knows <http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl#da> , <http://raw.githubusercontent.com/nhdu79/fswt/main/foaf.ttl#dnh> , <https://raw.githubusercontent.com/JakobSteinberg/linked-data/main/foaf.ttl#js> ;
    foaf:interest dbr:Semantic_Web , dbr:Guitar , dbr:Baking ; 
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
    social:likesMovie dbr:Fantastic_Beasts_and_Where_to_Find_Them , dbr:Fantastic_Beasts:_The_Crimes_of_Grindelwald ;
