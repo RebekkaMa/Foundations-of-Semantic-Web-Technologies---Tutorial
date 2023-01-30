@@ -1,6 +1,6 @@
-@base <https://github.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/blob/master/foaf.ttl> .
+@base <https://raw.githubusercontent.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/main/foaf.ttl> .
 
-@prefix im: <https://github.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/blob/master/foaf.ttl#> .
+@prefix im: <https://raw.githubusercontent.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/main/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
